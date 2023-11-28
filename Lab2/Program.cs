@@ -112,7 +112,7 @@ namespace Lab2
                             }
                             else
                             {
-                                Console.WriteLine(equationSolver.GetEquationAt(index).ToString());
+                                Console.WriteLine("#" + (index+1) + " " + equationSolver.GetEquationAt(index).ToString());
                             }
                         }
                         catch (FormatException ex)
